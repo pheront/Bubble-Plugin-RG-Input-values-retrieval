@@ -1,0 +1,22 @@
+{
+    "caption": "inputValuesExtraction",
+    "doc": "Extract the values of input when triggering",
+    "fields": {
+        "AAR": {
+            "caption": "RG Group ID Attribute",
+            "doc": "Activate the settings feature \"Expose the option to add an ID Attribute to HTML elements\". Choose an ID value for the repeating group and input it in this field.",
+            "editor": "StaticText",
+            "name": "rggroupid",
+            "rank": 0,
+            "value": "_any_thing"
+        },
+        "AAW": {
+            "caption": "debug Logs",
+            "default_val": false,
+            "doc": "Click this checkbox to activate the generation of logs in the browser console",
+            "editor": "Checkbox",
+            "name": "debuglogs",
+            "rank": 1
+        }
+    }
+}
