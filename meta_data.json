@@ -1,10 +1,12 @@
 {
     "categories": {
-        "0": "containers"
+        "0": "containers",
+        "1": "productivity",
+        "2": "technical"
     },
     "description": "This plugin permits to get the values of all the input elements embedded in a Repeating Group whatever the number of inputs and the positioning of those inputs in the DOM hierachy inside the repeating group.",
     "image": "//meta-q.cdn.bubble.io/f1733793602269x741546815170291700/logo%20plugin.jpg",
-    "license": "private",
+    "license": "open_source",
     "name": "RG Input values retrieval",
     "plugin_instructions": "Activate the settings feature \"Expose the option to add an ID Attribute to HTML elements\". Input an ID value for the Repeating Group.\n\nWhen selecting the action \"inputValuesExtraction\" in your workflow, input the ID value in the field \"RG Group ID Attribute\".\n\nThe field checkbox \"debug Logs\"  permits to activate the generation of logs in the browser console (useful in dev mode).\n\nYou can get the result of the action in the field inputValues of the element type \"RG Input values retrieval\" added in your page. inputValues is a list of text.\n\nerrorMessage is also a field available to detect and analyze a potential error during the plugin run. Its value is null when the run has succeeded."
 }
